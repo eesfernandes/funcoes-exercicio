@@ -6,15 +6,28 @@ imprimirNome('Eric')
 
 // b)
 const tabuada = (num) => {
-    console.log(num)
+    const mult1 = num * 1
+    const mult2 = num * 2
+    const mult3 = num * 3
+    const mult4 = num * 4
+    const mult5 = num * 5
+    const mult6 = num * 6
+    const mult7 = num * 7
+    const mult8 = num * 8
+    const mult9 = num * 9
+    const mult10 = num * 10
+    console.log(`
+    ${num} x 1 = ${mult1}
+    ${num} x 2 = ${mult2}
+    ${num} x 3 = ${mult3}
+    ${num} x 4 = ${mult4}
+    ${num} x 5 = ${mult5}
+    ${num} x 6 = ${mult6}
+    ${num} x 7 = ${mult7}
+    ${num} x 8 = ${mult8}
+    ${num} x 9 = ${mult9}
+    ${num} x 10 = ${mult10}`)
 }
-tabuada(7 + 'x' + 1 + '=' + 7)
-tabuada(7 + 'x' + 2 + '=' + 14)
-tabuada(7 + 'x' + 3 + '=' + 21)
-tabuada(7 + 'x' + 4 + '=' + 28)
-tabuada(7 + 'x' + 5 + '=' + 35)
-tabuada(7 + 'x' + 6 + '=' + 42)
-tabuada(7 + 'x' + 7 + '=' + 49)
-tabuada(7 + 'x' + 8 + '=' + 56)
-tabuada(7 + 'x' + 9 + '=' + 63)
-tabuada(7 + 'x' + 10 + '=' + 70)
+tabuada(3)
+tabuada(5)
+tabuada(7)
