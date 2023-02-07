@@ -1,23 +1,27 @@
 // a)
 const soma = (num1, num2) => {
-    console.log(`A soma dos números ${num1} + ${num2} é: ${num1 + num2}`)
+    const somaNum = num1 + num2
+    console.log(`A soma dos números ${num1} + ${num2} é: ${somaNum}`)
 }
 soma(2, 2)
 
 // b)
-const maioOuMenor = (num3, num4) => {
-    console.log(`O número ${num3} é maior que o número ${num4}? ${num3 > num4}`)
+const maiorOuMenor = (num3, num4) => {
+    const maiorQue = num3 > num4
+    console.log(`O número ${num3} é maior que o número ${num4}? ${maiorQue}`)
 }
-maioOuMenor(3, 5)
+maiorOuMenor(3, 5)
 
 // c)
 const parOuImpar = (num5) => {
-    console.log(`O número ${num5} é par? ${num5 % 2 === 0}`)
+    const ePar = num5 % 2 === 0
+    console.log(`O número ${num5} é par? ${ePar}`)
 }
 parOuImpar(4)
 
 // d)
-const descInss = (num6) => {
-    return num6 - num6 * (10 /100)
+const desc10Por100 = (num6) => {
+    const descInss = num6 - num6 * (10 / 100)
+    return descInss
 }
-console.log(descInss(1000))
+console.log(desc10Por100(1000))
